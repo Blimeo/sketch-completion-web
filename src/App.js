@@ -65,12 +65,13 @@ export default function App() {
           <CanvasDraw ref={canvasRef} hideGrid={true} brushRadius={brushRadius} brushColor={color} canvasWidth={width} canvasHeight={height} />
         </div>
         <div className="buttons">
-          <button style={{backgroundColor:'#ff0000'}} onClick={() => updateColor('#ff0000')}>⠀⠀⠀</button>
-          <button style={{backgroundColor:'#228B22'}} onClick={() => updateColor('#228B22')}>⠀⠀⠀</button>
-          <button style={{backgroundColor:'#0000ff'}} onClick={() => updateColor('#0000ff')}>⠀⠀⠀</button>
-          <button style={{backgroundColor:'#ffff00'}} onClick={() => updateColor('#ffff00')}>⠀⠀⠀</button>
-          <button style={{backgroundColor:'#00ffff'}} onClick={() => updateColor('#00ffff')}>⠀⠀⠀</button>
-          <button style={{backgroundColor:'#964b00'}} onClick={() => updateColor('#964b00')}>⠀⠀⠀</button>
+          <button style={{backgroundColor:'#000000'}} onClick={() => updateColor('#000000')}>⠀⠀</button>
+          <button style={{backgroundColor:'#ff0000'}} onClick={() => updateColor('#ff0000')}>⠀⠀</button>
+          <button style={{backgroundColor:'#228B22'}} onClick={() => updateColor('#228B22')}>⠀⠀</button>
+          <button style={{backgroundColor:'#0000ff'}} onClick={() => updateColor('#0000ff')}>⠀⠀</button>
+          <button style={{backgroundColor:'#ffff00'}} onClick={() => updateColor('#ffff00')}>⠀⠀</button>
+          <button style={{backgroundColor:'#00ffff'}} onClick={() => updateColor('#00ffff')}>⠀⠀</button>
+          <button style={{backgroundColor:'#964b00'}} onClick={() => updateColor('#964b00')}>⠀⠀</button>
           <button style={{backgroundColor:'#000000'}} onClick={() => updateColor('#000000')}>⠀⠀⠀</button>
           <label>
           <select value={brushRadius} onChange={e => setBrushRadius(e.target.value)}>
