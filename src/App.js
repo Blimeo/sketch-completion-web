@@ -29,7 +29,7 @@ export default function App() {
         cls: selectedClass
       }
       if (asdf !== "") {
-        axios.post("/query", params)
+        axios.post("https://sketch-completion.herokuapp.com/query", params)
           .then(response => {
             let img = new Image();
             img.src = 'data:image/png;base64,' + response.data;
