@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/sketch-completion-web/precache-manifest.d2ed2790837a994b9dfb62eee7be3f3e.js"
+  "/sketch-completion-web/precache-manifest.f67e343699bd7fb063348fd3d7dc3e85.js"
 );
 
 self.addEventListener('message', (event) => {
