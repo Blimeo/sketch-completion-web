@@ -59,8 +59,7 @@ export default function App() {
     <body>
 
       <h1>CIFAR-10 Sketch Completion Demo</h1>
-      <p>Note: Your sketch will be downsampled very significantly.</p>
-      <p>Due to hosting limitations on request timeouts, quality is compromised. Host locally for best results.</p>
+      <p>Completions take about 15 seconds to generate. Your sketch will be downsampled very significantly. Due to hosting limitations on request timeouts, quality is compromised. Host locally for best results.</p>
       <div className="left">
         <div className="drawboard">
           <CanvasDraw ref={canvasRef} hideGrid={true} brushRadius={brushRadius} brushColor={color} canvasWidth={width} canvasHeight={height} />
