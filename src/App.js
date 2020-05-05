@@ -8,7 +8,7 @@ export default function App() {
   const [color, setColor] = useState('#000');
   const [width, setWidth] = useState(480);
   const [height, setHeight] = useState(480);
-  const [brushRadius, setBrushRadius] = useState(7);
+  const [brushRadius, setBrushRadius] = useState(50);
   const [selectedClass, setSelectedClass] = useState(0);
 
   const canvasRef = useRef(null);
@@ -59,7 +59,8 @@ export default function App() {
     <body>
 
       <h1>CIFAR-10 Sketch Completion Demo</h1>
-      <p>Completions take about 15 seconds to generate. Your sketch will be downsampled very significantly. Due to hosting limitations on request timeouts, quality is compromised. Host locally for best results.</p>
+      <h4>Matthew Ye, Oliver Bryniarski, Athena Leong</h4>
+      <p>Completions take about 15 seconds to generate. Your sketch will be downsampled very significantly. <br></br>For best results, avoid only drawing boundaries. Instead, use a large brush size and fill in as many parts as possible, e.g. draw a branch for a bird or a black surface for an automobile.</p>
       <div className="left">
         <div className="drawboard">
           <CanvasDraw ref={canvasRef} hideGrid={true} brushRadius={brushRadius} brushColor={color} canvasWidth={width} canvasHeight={height} />
@@ -69,17 +70,17 @@ export default function App() {
           <button style={{backgroundColor:'#228B22'}} onClick={() => updateColor('#228B22')}>⠀⠀</button>
           <button style={{backgroundColor:'#0000ff'}} onClick={() => updateColor('#0000ff')}>⠀⠀</button>
           <button style={{backgroundColor:'#ffff00'}} onClick={() => updateColor('#ffff00')}>⠀⠀</button>
-          <button style={{backgroundColor:'#00ffff'}} onClick={() => updateColor('#00ffff')}>⠀⠀</button>
+          <button style={{backgroundColor:'#57b0d4'}} onClick={() => updateColor('#57b0d4')}>⠀⠀</button>
           <button style={{backgroundColor:'#964b00'}} onClick={() => updateColor('#964b00')}>⠀⠀</button>
           <button style={{backgroundColor:'#000000'}} onClick={() => updateColor('#000000')}>⠀⠀</button>
           <button style={{backgroundColor:'#ffffff'}} onClick={() => updateColor('#ffffff')}>⠀⠀</button>
           <label>
           <select value={brushRadius} onChange={e => setBrushRadius(e.target.value)}>
           <option value={2}>hungry</option>
-          <option value={4}>thin</option>
-          <option value={7}>normal</option>
+          <option value={3}>thin</option>
+          <option value={5}>normal</option>
           <option value={15}>thick</option>
-          <option value={50}>monstrous</option>
+          <option value={50}>xtra thick</option>
           <option value={800}>fill</option>
           </select>
         </label>
