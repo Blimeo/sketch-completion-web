@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "082fee74f252f4cd7fc2d6ccb88029a0",
+    "revision": "cb67204cc280df01a428fae75608a5ef",
     "url": "/sketch-completion-web/index.html"
   },
   {
-    "revision": "46e450196f36f09d01d9",
+    "revision": "155bf43630621f95a8e4",
     "url": "/sketch-completion-web/static/css/main.b436fbb6.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/sketch-completion-web/static/js/2.711fda55.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "46e450196f36f09d01d9",
-    "url": "/sketch-completion-web/static/js/main.3612bb6e.chunk.js"
+    "revision": "155bf43630621f95a8e4",
+    "url": "/sketch-completion-web/static/js/main.754b1d63.chunk.js"
   },
   {
     "revision": "b05b90004c7a83dda073",
