@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.e6b4009a.chunk.css",
-    "main.js": "/static/js/main.f381fd34.chunk.js",
-    "main.js.map": "/static/js/main.f381fd34.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.dbac8e30.js",
-    "runtime-main.js.map": "/static/js/runtime-main.dbac8e30.js.map",
-    "static/js/2.711fda55.chunk.js": "/static/js/2.711fda55.chunk.js",
-    "static/js/2.711fda55.chunk.js.map": "/static/js/2.711fda55.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.f6a5ed4062a2bb0ba097397291882849.js": "/precache-manifest.f6a5ed4062a2bb0ba097397291882849.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.e6b4009a.chunk.css.map": "/static/css/main.e6b4009a.chunk.css.map",
-    "static/js/2.711fda55.chunk.js.LICENSE.txt": "/static/js/2.711fda55.chunk.js.LICENSE.txt",
-    "static/media/App.css": "/static/media/bg.d01c4b17.jpg"
+    "main.css": "/sketch-completion-web/static/css/main.b436fbb6.chunk.css",
+    "main.js": "/sketch-completion-web/static/js/main.23531869.chunk.js",
+    "main.js.map": "/sketch-completion-web/static/js/main.23531869.chunk.js.map",
+    "runtime-main.js": "/sketch-completion-web/static/js/runtime-main.936a2731.js",
+    "runtime-main.js.map": "/sketch-completion-web/static/js/runtime-main.936a2731.js.map",
+    "static/js/2.711fda55.chunk.js": "/sketch-completion-web/static/js/2.711fda55.chunk.js",
+    "static/js/2.711fda55.chunk.js.map": "/sketch-completion-web/static/js/2.711fda55.chunk.js.map",
+    "index.html": "/sketch-completion-web/index.html",
+    "precache-manifest.d2ed2790837a994b9dfb62eee7be3f3e.js": "/sketch-completion-web/precache-manifest.d2ed2790837a994b9dfb62eee7be3f3e.js",
+    "service-worker.js": "/sketch-completion-web/service-worker.js",
+    "static/css/main.b436fbb6.chunk.css.map": "/sketch-completion-web/static/css/main.b436fbb6.chunk.css.map",
+    "static/js/2.711fda55.chunk.js.LICENSE.txt": "/sketch-completion-web/static/js/2.711fda55.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/sketch-completion-web/static/media/bg.d01c4b17.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.dbac8e30.js",
+    "static/js/runtime-main.936a2731.js",
     "static/js/2.711fda55.chunk.js",
-    "static/css/main.e6b4009a.chunk.css",
-    "static/js/main.f381fd34.chunk.js"
+    "static/css/main.b436fbb6.chunk.css",
+    "static/js/main.23531869.chunk.js"
   ]
 }
