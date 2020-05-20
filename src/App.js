@@ -76,7 +76,7 @@ export default function App() {
           <button style={{backgroundColor:'#ffffff'}} onClick={() => updateColor('#ffffff')}>⠀⠀</button>
           <label>
           <select value={brushRadius} onChange={e => setBrushRadius(e.target.value)}>
-          <option value={2}>hungry</option>
+          <option value={2}>xtra thin</option>
           <option value={3}>thin</option>
           <option value={5}>normal</option>
           <option value={15}>thick</option>
