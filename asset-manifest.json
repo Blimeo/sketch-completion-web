@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/sketch-completion-web/static/css/main.9399017f.chunk.css",
-    "main.js": "/sketch-completion-web/static/js/main.ce8b1ec9.chunk.js",
-    "main.js.map": "/sketch-completion-web/static/js/main.ce8b1ec9.chunk.js.map",
+    "main.js": "/sketch-completion-web/static/js/main.5352161a.chunk.js",
+    "main.js.map": "/sketch-completion-web/static/js/main.5352161a.chunk.js.map",
     "runtime-main.js": "/sketch-completion-web/static/js/runtime-main.936a2731.js",
     "runtime-main.js.map": "/sketch-completion-web/static/js/runtime-main.936a2731.js.map",
     "static/js/2.711fda55.chunk.js": "/sketch-completion-web/static/js/2.711fda55.chunk.js",
     "static/js/2.711fda55.chunk.js.map": "/sketch-completion-web/static/js/2.711fda55.chunk.js.map",
     "index.html": "/sketch-completion-web/index.html",
-    "precache-manifest.d141b17c0172293c4158bb6f046592a6.js": "/sketch-completion-web/precache-manifest.d141b17c0172293c4158bb6f046592a6.js",
+    "precache-manifest.0ea166b69e4c4206439395004941bc4f.js": "/sketch-completion-web/precache-manifest.0ea166b69e4c4206439395004941bc4f.js",
     "service-worker.js": "/sketch-completion-web/service-worker.js",
     "static/css/main.9399017f.chunk.css.map": "/sketch-completion-web/static/css/main.9399017f.chunk.css.map",
     "static/js/2.711fda55.chunk.js.LICENSE.txt": "/sketch-completion-web/static/js/2.711fda55.chunk.js.LICENSE.txt",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.936a2731.js",
     "static/js/2.711fda55.chunk.js",
     "static/css/main.9399017f.chunk.css",
-    "static/js/main.ce8b1ec9.chunk.js"
+    "static/js/main.5352161a.chunk.js"
   ]
 }
